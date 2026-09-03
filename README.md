@@ -1,6 +1,11 @@
 # QR Restaurant Ordering System — Demo Bistro
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-hungtranbkit%2Fqr--restaurant-181717?logo=github&logoColor=white)](https://github.com/hungtranbkit/qr-restaurant)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-rent--micro--grill--mainland.trycloudflare.com-38B2AC?logo=vercel&logoColor=white)](https://rent-micro-grill-mainland.trycloudflare.com)
+
+> The live demo link is a temporary Cloudflare quick tunnel to a dev machine —
+> it goes down whenever that machine/tunnel isn't running. Treat it as
+> best-effort, not an SLA; see [Setup](#3-setup) to run it yourself.
 
 A working restaurant ordering platform: customers order via a per-table QR code,
 kitchen sees tickets in realtime, staff manage tables and service requests,
