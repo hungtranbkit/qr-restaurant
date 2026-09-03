@@ -1,5 +1,7 @@
 # QR Restaurant Ordering System — Demo Bistro
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-hungtranbkit%2Fqr--restaurant-181717?logo=github&logoColor=white)](https://github.com/hungtranbkit/qr-restaurant)
+
 A working restaurant ordering platform: customers order via a per-table QR code,
 kitchen sees tickets in realtime, staff manage tables and service requests,
 cashiers check out, and admins run the business from a real dashboard — all on
