@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: qr-restaurant-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: qrrest
+      POSTGRES_PASSWORD: qrrest_dev_pw
+      POSTGRES_DB: qr_restaurant
+    ports:
+      - "5434:5432"
+    volumes:
+      - qr_restaurant_db_data:/var/lib/postgresql/data
+
+volumes:
+  qr_restaurant_db_data:
